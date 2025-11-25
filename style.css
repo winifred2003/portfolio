@@ -225,6 +225,12 @@ nav a:hover {
   gap: 60px;
   margin-left: 20px;
 }
+.cot{
+  display: flex;
+  gap: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
 .pro {
   background:#888583; 
   padding:15px;
