@@ -424,11 +424,17 @@ form .mes {
           gap: 20px;
   }
 
+
   .services .service-boxes,
   .serve {
     flex-direction: column;
     gap: 20px;
   }
+  .service:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgb(54, 49, 122);
+  background-color: #888480;
+}
 
   #Contact {
     flex-direction: column;
@@ -506,7 +512,11 @@ form .mes {
     padding: 15px;
     flex: 1 1 100%;
   }
-
+ .service:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgb(54, 49, 122);
+  background-color: #888480;
+}
   #Contact {
     flex-direction: column;
     align-items: center;
