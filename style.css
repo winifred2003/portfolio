@@ -389,6 +389,26 @@ form .mes {
   color: white;
 }
 
+.wa-btn {
+  display: block;
+  text-align: center;
+  background-color: #25D366;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  text-decoration: none;
+  width: 300px;
+}
+
+.wa-btn:hover {
+  background-color: #1da851;
+  transform: scale(1.03);
+}
+
+
 @media (max-width: 1024px) {
   #helo {
     flex-direction: column;
